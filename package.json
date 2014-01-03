@@ -1,0 +1,36 @@
+{
+  "name": "itunes-library-stream",
+  "description": "Streaming parser for the contents of iTunes Library XML files",
+  "version": "0.0.0",
+  "main": "index.js",
+  "browser": "index.js",
+  "dependencies": {
+    "sax": "~0.6.0",
+    "stream-combiner": "0.0.4",
+    "through2": "~0.3.0"
+  },
+  "devDependencies": {
+    "userhome": "~0.1.0"
+  },
+  "scripts": {},
+  "author": "Hugh Kennedy <hughskennedy@gmail.com> (http://hughsk.io/)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/hughsk/itunes-library-stream"
+  },
+  "bugs": {
+    "url": "https://github.com/hughsk/itunes-library-stream/issues"
+  },
+  "homepage": "https://github.com/hughsk/itunes-library-stream",
+  "keywords": [
+    "itunes",
+    "library",
+    "xml",
+    "parser",
+    "stream",
+    "music",
+    "audio",
+    "metadata"
+  ]
+}
