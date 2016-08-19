@@ -1,5 +1,4 @@
 var combiner = require('stream-combiner')
-var userhome = require('userhome')
 var through2 = require('through2')
 var path = require('path')
 var sax = require('sax')
